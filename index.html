@@ -1,6 +1,52 @@
-doc
-<style>
-    p {
-      background-image: url('bck.jpg');
-    }
-    </style>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/0dfdec2c7e.js"></script>
+
+<div class="logo">Eestlaste RP</div>
+
+<ul class="menu">
+    <li class="menuitem" onclick="openLink('start')" style="border-color: #3ca918">Avaleht</li>
+    <li class="menuitem" onclick="openLink('about')">Info</li>
+    <li class="menuitem" onclick="openLink('rules')">Reeglid</li>
+    <li class="menuitem" onclick="openLink('partner')">Sisuloojad</li>
+</ul>
+
+<div class="maintext">
+    <div class="title">EESTLASTE<br>
+        <w style="color: #3ca918">Roleplay</w>
+    </div>
+    <div class="description">Tere tulemast meie serveri kodulehele, server on hetkel valmistamisel
+           Planeeritav väljalase: 24. Veebruar
+    </div>
+</div>
+
+<div class="bar">
+    <div class="sec1">
+        <div class="sec1time">3:13</div>
+        <div class="sec1title">Serveri staatus</div>
+        <div class="sec1subtitle">Server on hetkel beta!</div>
+    </div>
+
+    <div class="sec2">
+        <div class="sectitle">Fivem</div>
+        <div class="secsubtitle">Eestlaste RolePlay</div>
+        <div class="secip" id="first" onclick="openLink('first')">connect EestlasteRP.ee</div><i onclick="copyText('first')" class="grey1 far fa-copy"></i>
+        <div class="secbarfull">
+            <div class="secinbar"></div>
+        </div>
+    </div>
+
+    <div class="sec3">
+        <div class="sectitle">Discord</div>
+        <div class="secsubtitle blue">Eestlaste RolePlay</div>
+        <div class="secip blue" id="second" onclick="openLink('second')">discord.gg/ery3HZRFCz</div><i onclick="copyText('second')" class="grey2 far fa-copy"></i>
+        <div class="secbarfull">
+            <div class="secinbar bluebg"></div>
+        </div>
+    </div>
+</html>
+<!--Copyright (c) 2024 EestlasteRP.ee-->
